@@ -67,7 +67,7 @@ nav img{
 }
 .t1{
     color: #FFF;
-font-family: League Spartan;
+font-family: League SpartanSlack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 font-size: 55px;
 font-style: normal;
 font-weight: 700;
@@ -81,13 +81,12 @@ margin-left: -140px;
 }
 .t2{
         color: #DDAE35;
-        font-family: League Spartan;
+        font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
         font-size: 55px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         width: -100px;
-        height: -100px;
         flex-shrink: 0;
         position: absolute;
         text-align: left;
@@ -101,4 +100,21 @@ margin-left: -140px;
     position: absolute;
     
 
+}
+.t3{
+    width: 668px;
+height: 108px;
+flex-shrink: 0;
+color: #FFF;
+font-family:   Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+;
+font-size: 22px;
+font-style: normal;
+font-weight: 300px;
+line-height: normal;
+letter-spacing: -0.52px;
+position: absolute;
+text-align: left;
+margin-left: -140px;
+margin-top: 195px;
 }
