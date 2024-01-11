@@ -90,8 +90,7 @@ margin-left: -140px;
         flex-shrink: 0;
         position: absolute;
         text-align: left;
-        margin-left: -140px;
-    
+        margin-left: -140px;  
 }
 .f1{
     width: 1220px;
@@ -107,7 +106,6 @@ height: 108px;
 flex-shrink: 0;
 color: #FFF;
 font-family:   Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
-;
 font-size: 22px;
 font-style: normal;
 font-weight: 300px;
@@ -117,4 +115,73 @@ position: absolute;
 text-align: left;
 margin-left: -140px;
 margin-top: 195px;
+}
+.t4{
+    width: 310px;
+    height:40px;
+    padding: 10px;
+    background-color: #FFF;
+    margin: 15px;
+    color:#4a154b;
+    font-size: 22px;
+    border-radius: 3px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.52px;
+    position: absolute;
+    text-align: center;
+    margin-left: -140px;
+    margin-top: 320px;
+    justify-content:center ;
+    align-items: center;
+    display: flex;
+}
+.t5{
+        width: 240px;
+        height:40px;
+        padding: 10px;
+        background-color: #00F4F4;
+        margin: 15px;
+        color:white;
+        font-size: 22px;
+        border-radius: 3px;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.52px;
+        position: absolute;
+        text-align: right;
+        margin-left: 200px;
+        margin-top: 320px;
+        justify-content:center ;
+        align-items: center;
+        display: flex;
+        white-space: nowrap;
+        overflow: hidden;
+        float: right;
+    }
+.t5 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    justify-items: left;
+    align-items:left;
+    display: flex;
+    float: left;
+    position:absolute;
+}
+.free{
+    width: 668px;
+    height: 108px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family:   Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300px;
+    line-height: normal;
+    letter-spacing: -0.52px;
+    position: absolute;
+    text-align: left;
+    margin-left: -140px;
+    margin-top: 360px;
 }
