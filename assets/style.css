@@ -1,5 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header, .nav-links ul li::after, .t4, .t5 {
+    border: none;
+}
+
+.nav-links ul li::after {
+    display: none;
+}
+
+
+
 .header{
-    min-height: 100vh;
+    min-height: 250px;
     justify-content: space-between;
     width:100%;
     background:white;
@@ -18,13 +34,14 @@ ul{
 }
 nav{
      
-    padding: 1% 6%;
+    padding: 0;
     display: flex;
     align-items:center;
     justify-content:space-between ;
 }
 nav img{
     width: 180px;
+    margin-left: 85px;
 }
 .nav-links2{
     list-style: none;
@@ -41,14 +58,14 @@ nav img{
 .nav-links ul li{
     list-style: none;
     display:inline-block;
-    padding:10px 10px;
+    padding:0px 0px;
     position:relative
 }
 .nav-links ul li a{
     color: white;
     padding: 0px 10px;
     text-decoration : none;
-    font: size 1px;
+    font-size: 15px;
 }
 .nav-links ul li::after{
     content: '';
@@ -67,8 +84,8 @@ nav img{
 }
 .t1{
     color: #FFF;
-font-family: League SpartanSlack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
-font-size: 55px;
+font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+font-size: 50px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -76,27 +93,35 @@ width: 630px;
 height: 40px;
 flex-shrink: 0;
 position: absolute;
-text-align: left;
-margin-left: -140px;
+text-align: right;
+margin-left: 70px;
+margin-top: -50px;
+letter-spacing: -1.5px;
 }
 .t2{
         color: #DDAE35;
         font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
-        font-size: 55px;
+        font-size: 45px;
         font-style: normal;
         font-weight: 700;
-        line-height: normal;
+        line-height: 1.0625;
         width: -100px;
         flex-shrink: 0;
         position: absolute;
         text-align: left;
-        margin-left: -140px;  
+        margin-left: 125px;
+        margin-top: -30px;
+        letter-spacing: -1.5px;
 }
 .f1{
     width: 1220px;
     height: 335px;
     flex-shrink: 0; 
     position: absolute;
+    align-items: right;
+    margin-left: 840px;
+    max-width: 700px;
+    max-height: 400px;
     
 
 }
@@ -113,8 +138,8 @@ line-height: normal;
 letter-spacing: -0.52px;
 position: absolute;
 text-align: left;
-margin-left: -140px;
-margin-top: 195px;
+margin-left: 125px;
+margin-top: 175px;
 }
 .t4{
     width: 310px;
@@ -130,7 +155,7 @@ margin-top: 195px;
     letter-spacing: -0.52px;
     position: absolute;
     text-align: center;
-    margin-left: -140px;
+    margin-left: 125px;
     margin-top: 320px;
     justify-content:center ;
     align-items: center;
@@ -140,7 +165,7 @@ margin-top: 195px;
         width: 240px;
         height:40px;
         padding: 10px;
-        background-color: #00F4F4;
+        background-color: #4285f4;
         margin: 15px;
         color:white;
         font-size: 22px;
@@ -150,7 +175,7 @@ margin-top: 195px;
         letter-spacing: -0.52px;
         position: absolute;
         text-align: right;
-        margin-left: 200px;
+        margin-left: 480px;
         margin-top: 320px;
         justify-content:center ;
         align-items: center;
@@ -168,6 +193,7 @@ margin-top: 195px;
     display: flex;
     float: left;
     position:absolute;
+    margin-left: -200;
 }
 .free{
     width: 668px;
@@ -182,6 +208,38 @@ margin-top: 195px;
     letter-spacing: -0.52px;
     position: absolute;
     text-align: left;
-    margin-left: -140px;
+    margin-left: 125px;
     margin-top: 360px;
+}
+.mid{
+    margin-top:500px ;
+    margin-left:0 ;
+    width: 100%;
+height: 1500px;
+}
+.m1{
+    color: #000;
+font-family: " Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif";
+font-size: 16px;
+font-style:normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 500px;
+margin-left: 575px;
+line-height: 10;
+border: none;
+}
+.im1{
+    width: 112px;
+    height: 44px;
+    flex-shrink: 0;
+    margin-left: 250px;
+    margin-top: -34px;
+}
+.im2{
+    width: 112px;
+    height: 44px;
+    flex-shrink: 0;
+    margin-left: 425px;
+    margin-top: -50px;
 }
