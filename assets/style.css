@@ -12,6 +12,12 @@ body {
     display: none;
 }
 
+
+.box1.front {
+    z-index: 2;
+}
+
+
 .sign{
     position: absolute;
     margin-top: 168px;
@@ -120,7 +126,7 @@ nav img{
     margin:auto;
 }
 .nav-links ul li:hover::after{
-    width:50%;
+    width:75%;
     text-decoration: none;
     text-decoration-line: line-through;
     text-decoration-thickness: 3px;
@@ -762,6 +768,8 @@ position: absolute;
     white-space: nowrap;
     overflow: hidden;
     float: right;
+    z-index: 1;
+    /* Add other styling properties as needed */
 }
 .b1{
     margin-left: 5px;
