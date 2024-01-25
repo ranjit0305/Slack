@@ -1,3 +1,4 @@
+
 .Signup {
     width: 100%;
     height: 500px;
@@ -48,6 +49,15 @@
     letter-spacing: 1;
     font-style: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
+.i1:hover{
+    box-shadow: 0px 1px 3px;
+}
+.i2:hover{
+    box-shadow: 0px 0px 3px;
+}
+.sbox:hover{
+    background-color: #5b1e5c;
+}
 .i1{
     background-color: #FFF;
      width: 350px;
@@ -67,6 +77,14 @@
      font-size: 18px;
      font-style: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
    }
+   .img1{
+    position: absolute;
+    margin-left: -180px;
+   }
+   .enter:focus{
+    color: blue;
+    box-shadow: 0px 0px 10px;
+   }
    .i2{
     background-color: #FFF;
      width: 350px;
@@ -85,6 +103,10 @@
      font-weight: 100;
      font-size: 18px;
      font-style: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+   }
+   .img2{
+    position: absolute;
+    margin-left: -170px;
    }
    .line{
     width: 425px;
@@ -168,6 +190,10 @@ position: absolute;
     position: absolute;
     font-style:  Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
+.te3:hover{
+    text-decoration: underline;
+    color: blue;
+}
 .te3{
     margin-top: 590px;
     margin-left: 710px;
@@ -176,14 +202,24 @@ position: absolute;
     position: absolute;
     font-style:  Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
+.te4:hover{
+    text-decoration: underline;
+    color: blue;
+}
 .te4{
     margin-top: 635px;
     margin-left: 580px;
     font-size: 16px;
     color:grey;
     position: absolute;
+    
     font-style:  Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
+.te5:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
 .te5{
     margin-top: 635px;
     margin-left: 715px;
@@ -191,6 +227,10 @@ position: absolute;
     color:grey;
     position: absolute;
     font-style:  Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.te6:hover{
+    text-decoration: underline;
+    color: blue;
 }
 .te6{
     margin-top: 633px;
@@ -207,6 +247,10 @@ position: absolute;
     color:black;
     position: absolute;
     font-style:  Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.te8:hover{
+    text-decoration: underline;
+    color: blue;
 }
 .te8{
     margin-top: 60px;

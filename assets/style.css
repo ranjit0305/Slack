@@ -352,6 +352,15 @@ border: none;
     letter-spacing: -1.5px;
     line-height: 0.6;
 }
+.m4:hover{
+    text-decoration: underline;
+}
+.n4:hover{
+    text-decoration: underline;
+}
+.o4:hover{
+    text-decoration: underline;
+}
 .m3{
     width: 573px;
     height: 103px;
@@ -378,7 +387,7 @@ border: none;
     margin-top: -80px;
     margin-left: 900px;
     font-style: normal;
-    line-height: 1.5
+    line-height: 1.5;
 }
 .n1{
     margin-top:110px ;
@@ -575,6 +584,9 @@ line-height: normal;
 margin-left: 445px;
 margin-top: 80px;
 }
+.e3:hover{
+    background-color: #5b1e5c;
+}
 .e3{
     width: 265px;
     height:45px;
@@ -595,6 +607,9 @@ margin-top: 80px;
     align-items: center;
     display: flex;
     font-style: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif ;
+}
+.e4:hover{
+    box-shadow: 0px 0px 3px;
 }
 .e4{
  background-color: white;
@@ -769,7 +784,7 @@ position: absolute;
     overflow: hidden;
     float: right;
     z-index: 1;
-    /* Add other styling properties as needed */
+
 }
 .b1{
     margin-left: 5px;

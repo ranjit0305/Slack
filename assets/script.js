@@ -19,3 +19,4 @@ function bringToFront(element) {
 function sendToBack(element) {
     element.classList.remove('front');
 }
+
