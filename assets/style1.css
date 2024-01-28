@@ -261,3 +261,13 @@ position: absolute;
     font-weight: 600;
     font-style:  Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
+@media screen (max-width: 767px;){
+    .flogo {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-top: 0px;
+        margin-left: 0px;
+        }
+    
+}
