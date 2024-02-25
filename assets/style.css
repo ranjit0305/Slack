@@ -87,10 +87,8 @@ body {
 
 .header{
     min-height: 100px;
-    justify-content: space-between;
     width:100%;
     background:white;
-    background-position: center;
     background-size: cover;
     position: relative;
 }
@@ -414,6 +412,7 @@ border: none;
     margin-top:110px ;
     margin-left: 750px;
 }
+
 .n2{
     width: 668px;
     height: 108px;
@@ -1514,6 +1513,7 @@ position: absolute;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 @media (max-width: 767px) {
+
     .header{
         width: 100%;
      height: 2500px;
@@ -1535,25 +1535,27 @@ position: absolute;
     font-style:normal;
     font-weight: 100;
     line-height: normal;
-    width:auto;
+    width:100%;
+    max-width: 600px;
     height: 40px;
     flex-shrink: 0;
     text-align: left;
     margin-top: 0px;
     font-size: 26px;
-    margin-left: 70px;
+    margin-left: 20px;
      }
      .t2{
         color: #DDAE35;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 26px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 700;
-        width: auto;
+        width: 100%;
+        max-width: 600px;
         flex-shrink: 0;
         position: absolute;
         text-align: left;
-        margin-left: 50px;
+        margin-left: 20px;
         margin-top: 10px;
         letter-spacing: -1.5px;
 }
@@ -1569,7 +1571,7 @@ line-height: normal;
 letter-spacing: -0.52px;
 position: absolute;
 text-align: center;
-margin-left: 20px;
+margin-left:0px;
 margin-top: 120px;
 }
 .t4{
@@ -1624,11 +1626,11 @@ margin-top: 120px;
     display: flex;
     float: left;
     position:absolute;
-    margin-left: -270;
+    margin-left: -280px;
 }
 .t7{
     margin-top: 272px;
-    margin-left: 130px;
+    margin-left: 80px;
     color: #FFF;
     font-size: 22px;
     font-style: normal;
@@ -1645,9 +1647,9 @@ margin-top: 120px;
     height: 180px;
 }
 .f1video{
-    width: 600px;
+    width: 300px;
     height: 300px;
-    margin-left: -50px;
+    margin-left: 70px;
 }
 .mid{
     margin-top:700px ;
@@ -1662,7 +1664,8 @@ font-size: 13px;
 font-style:normal;
 font-weight: 700;
 margin-top: 0px;
-margin-left: 40px;
+width:100%;
+margin-left: 0px;
 }
 .im1{
     width: 56px;
@@ -1675,15 +1678,16 @@ margin-left: 40px;
     width: 56px;
     height: 22px;
     flex-shrink: 0;
-    margin-left: 150px;
+    margin-left: 180px;
     margin-top: -30px;
 }
 .im3{
-    width: 80px;
-    height: 18px;
+    width: 50px;
+    height: 14px;
     flex-shrink: 0;
-    margin-left: 220px;
-    margin-top: -20px;
+    margin-left: 20px;
+    margin-top: 100px;
+    position: absolute;
 }
 .im4{
     width: 90px;
@@ -1692,29 +1696,30 @@ margin-left: 40px;
     margin-left: 20px;
     margin-top: 45px;
 }
-.im5{
-    width: 90px;
-    height: 22px;
-    flex-shrink: 0;
-    margin-left: 150px;
-    margin-top: -20px;
-}
 .im6{
     width: 90px;
     height: 22px;
     flex-shrink: 0;
-    margin-left: 240px;
-    margin-top: -25px;
+    margin-left: 170px;
+    margin-top: -20px;
+}
+.im5{
+    width:80%;
+    height: 22px;
+    flex-shrink: 0;
+    margin-left: 200px;
+    margin-top: 40px;
+    position: absolute;
 }
 .f2{
-    margin-top:90px ;
-    margin-left: -100px;
+    margin-top:120px ;
+    margin-left: 20px;
     width: 220px;
     height: 200px;
 }
 .f2video{
-    width:600px;
-    height:300px;
+    width:300px;
+    height:150px;
 }
 .m2{
     width: auto;
@@ -1730,12 +1735,12 @@ margin-left: 40px;
     position: absolute;
     text-align: left;
     margin-left: 20px;
-    margin-top: 110px;
+    margin-top: 0px;
     letter-spacing: -1.5px;
     line-height: 0.6;
 }
 .m3{
-    width: autopx;
+    width: 70%;
     height: 103px;
     flex-shrink: 0;
     color: #000;
@@ -1744,7 +1749,7 @@ margin-left: 40px;
     font-weight: 100;
     line-height: normal;
     position:absolute;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 20px;
     font-style: normal;
     line-height: 1.5  
@@ -1768,8 +1773,9 @@ margin-left: 40px;
     height: 200px;
 }
 .n1video{
-    width: 570px;
+    width: 300px;
     height: 270px;
+    margin-left: 60px;
 }
 .n2{
     width: auto;
@@ -1822,7 +1828,7 @@ line-height: 1.5;
     margin-left: -50px;
 }
 .o1video{
-    width: 570px;
+    width: 400px;
     height: 270px;
 }
 .o2{
@@ -1891,7 +1897,7 @@ position: absolute;
 height: 60px;
 flex-shrink: 0;
 color: #000;
-font-size: 22px;
+font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -2082,6 +2088,10 @@ font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Ari
 font-size: 20px;
 font-weight: 600;
 }
+.box1{
+    margin-left: 50px;
+}
+
 .fbox1{
     width: 75%;
     height:40px;
@@ -2132,7 +2142,7 @@ font-weight: 600;
     position: absolute;
   }
   .ft1{
-    margin-left:40px;
+    margin-left:20px;
     margin-top:475px ;
     color: #000;
     position: absolute;
@@ -2141,7 +2151,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft2{
-    margin-left:40px;
+    margin-left:20px;
     margin-top:520px ;
     color: #000;
     position: absolute;
@@ -2150,7 +2160,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft3{
-    margin-left:40px;
+    margin-left:20px;
     margin-top:560px ;
     color: #000;
     position: absolute;
@@ -2159,7 +2169,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft4{
-    margin-left:40px;
+    margin-left:20px;
     margin-top:600px ;
     color: #000;
     position: absolute;
@@ -2168,7 +2178,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft5{
-    margin-left:40px;
+    margin-left:20px;
     margin-top:640px ;
     color: #000;
     position: absolute;
@@ -2177,7 +2187,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft6{
-    margin-left:40px;
+    margin-left:20px;
     margin-top:680px ;
     color: #000;
     position: absolute;
@@ -2186,7 +2196,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft7{
-    margin-left:140px;
+    margin-left:120px;
     margin-top:475px ;
     color: #000;
     position: absolute;
@@ -2195,7 +2205,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft8{
-    margin-left:140px;
+    margin-left:120px;
     margin-top:520px ;
     color: #000;
     position: absolute;
@@ -2204,7 +2214,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft9{
-    margin-left:140px;
+    margin-left:120px;
     margin-top:560px ;
     color: #000;
     position: absolute;
@@ -2213,7 +2223,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft10{
-    margin-left:140px;
+    margin-left:120px;
     margin-top:600px ;
     color: #000;
     position: absolute;
@@ -2222,7 +2232,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft11{
-    margin-left:140px;
+    margin-left:120px;
     margin-top:640px ;
     color: #000;
     position: absolute;
@@ -2231,7 +2241,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft12{
-    margin-left:220px;
+    margin-left:200px;
     margin-top:475px ;
     color: #000;
     position: absolute;
@@ -2240,7 +2250,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft13{
-    margin-left:220px;
+    margin-left:200px;
     margin-top:520px ;
     color: #000;
     position: absolute;
@@ -2249,7 +2259,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft14{
-    margin-left:220px;
+    margin-left:200px;
     margin-top:560px ;
     color: #000;
     position: absolute;
@@ -2258,7 +2268,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft16{
-    margin-left:298px;
+    margin-left:278px;
     margin-top:475px ;
     color: #000;
     position: absolute;
@@ -2267,7 +2277,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft17{
-    margin-left:298px;
+    margin-left:278px;
     margin-top:520px ;
     color: #000;
     position: absolute;
@@ -2276,7 +2286,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft18{
-    margin-left:298px;
+    margin-left:278px;
     margin-top:560px ;
     color: #000;
     position: absolute;
@@ -2285,7 +2295,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft19{
-    margin-left:298px;
+    margin-left:278px;
     margin-top:600px ;
     color: #000;
     position: absolute;
@@ -2294,7 +2304,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft20{
-    margin-left:298px;
+    margin-left:278px;
     margin-top:640px ;
     color: #000;
     position: absolute;
@@ -2303,7 +2313,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft21{
-    margin-left:298px;
+    margin-left:278px;
     margin-top:680px ;
     color: #000;
     position: absolute;
@@ -2312,7 +2322,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft22{
-    margin-left:298px;
+    margin-left:278px;
     margin-top:720px ;
     color: #000;
     position: absolute;
@@ -2321,7 +2331,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft23{
-    margin-left:298px;
+    margin-left:278px;
     margin-top:760px ;
     color: #000;
     position: absolute;
@@ -2330,7 +2340,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft24{
-    margin-left:390px;
+    margin-left:360px;
     margin-top:475px ;
     color: #000;
     position: absolute;
@@ -2339,7 +2349,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft25{
-    margin-left:390px;
+    margin-left:360px;
     margin-top:520px ;
     color: #000;
     position: absolute;
@@ -2348,7 +2358,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft26{
-    margin-left:390px;
+    margin-left:360px;
     margin-top:560px ;
     color: #000;
     position: absolute;
@@ -2357,7 +2367,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft27{
-    margin-left:390px;
+    margin-left:360px;
     margin-top:600px ;
     color: #000;
     position: absolute;
@@ -2366,7 +2376,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft28{
-    margin-left:390px;
+    margin-left:360px;
     margin-top:640px ;
     color: #000;
     position: absolute;
@@ -2375,7 +2385,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft29{
-    margin-left:390px;
+    margin-left:360px;
     margin-top:680px ;
     color: #000;
     position: absolute;
@@ -2384,7 +2394,7 @@ font-weight: 600;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 .ft30{
-    margin-left:390px;
+    margin-left:360px;
     margin-top:720px ;
     color: #000;
     position: absolute;
