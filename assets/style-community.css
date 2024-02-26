@@ -902,7 +902,10 @@ position: absolute;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) 
+{
+    
+   
    .header{
     height: 2100px;
    }
