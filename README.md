@@ -10,4 +10,6 @@ Languages Used:<br>
 HTML<br>
 CSS<br>
 JavaScript<br>
+Here is the hosted link of my project: https://slack-spotknack.netlify.app/<br>
+
 
